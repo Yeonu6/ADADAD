@@ -3,8 +3,6 @@
 def add(a, b):
     print(a+b)
 
-
-
 def sub(a, b):
     if a>b:
         print(a-b)
