@@ -17,11 +17,11 @@ def mul(a, b):
 
 def div(a, b):
     if a == 0:
-        return ("a가 0이니 계산 X")
+        print ("a가 0이니 계산 X")
     elif b == 0:
-        return ("b가 0이니 계산 X")
+        print ("b가 0이니 계산 X")
     else:
-        return (a/b)
+        print (a/b)
 
 
 
