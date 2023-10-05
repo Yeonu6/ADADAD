@@ -1,1 +1,2 @@
-# Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae tempore corrupti accusantium ullam praesentium necessitatibus porro voluptatem, dolores aliquam optio libero distinctio laudantium sunt. Repudiandae aspernatur dignissimos nam soluta at?
+# 大家好
+## Dàjiā hǎo
