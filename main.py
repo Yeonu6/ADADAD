@@ -8,12 +8,7 @@ def mul(a, b):
     print(a*b)
 
 def div(a, b):
-    if a == 0:
-        print ("a가 0이니 계산 X")
-    elif b == 0:
-        print ("b가 0이니 계산 X")
-    else:
-        print (a/b)
+    print("0이 포함되어 있어 계산X" if a == 0 or b == 0 else a/b)
 
 def main():
     operator = int(input("1. 덧셈 2. 뺄셈 3. 곱셈 4. 나눗셈"))
