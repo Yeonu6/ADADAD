@@ -1,21 +1,11 @@
-
-    
 def add(a, b):
     print(a+b)
 
-
 def sub(a, b):
-    if a>b:
-        print(a-b)
-    else:
-        print(b-a)
-
-
+    print(a-b if a>b else b-a)
 
 def mul(a, b):
-    print (a * b)
-
-
+    print(a*b)
 
 def div(a, b):
     if a == 0:
@@ -24,9 +14,6 @@ def div(a, b):
         print ("b가 0이니 계산 X")
     else:
         print (a/b)
-
-
-
 
 def main():
     operator = int(input("1. 덧셈 2. 뺄셈 3. 곱셈 4. 나눗셈"))
