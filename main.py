@@ -1,12 +1,13 @@
 
     
-def add(a, b):
-
-
+def add(a, b):`
 
 
 def sub(a, b):
-    
+    if a>b:
+        print(a-b)
+    else:
+        print(b-a)
 
 
 
